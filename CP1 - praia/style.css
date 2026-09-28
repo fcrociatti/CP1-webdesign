@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFE9F5;
+    color: #1E1E1E;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Limelight', cursive;
+    font-weight: normal;
+}
+
+h2 {
+    color: #064661;
+    font-size: 32px;
+    line-height: 54px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.titulo-grande {
+    font-size: 36px;
+    margin-bottom: 22px;
+}
+
+.cabecalho {
+    background-color: #064661;
+    height: 128px;
+    padding: 43px 72px;
+}
+
+.cabecalho h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: 465px;
+    object-fit: cover;
+}
+
+.conteudo {
+    width: 1138px;
+    margin-left: 72px;
+    padding-top: 78px;
+}
+
+.secao {
+    margin-bottom: 80px;
+}
+
+#galeria {
+    margin-left: -4px;
+}
+
+#contato {
+    margin-bottom: 66px;
+}
+
+.secao p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.texto-imagem {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.texto {
+    width: 545px;
+}
+
+.texto p + p {
+    margin-top: 30px;
+}
+
+.texto-imagem img {
+    width: 538px;
+    height: 361px;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.card {
+    width: 356px;
+    height: 167px;
+    background-color: #9ABEE0;
+    border: 3px solid #064661;
+    border-radius: 8px;
+    padding: 28px 29px;
+}
+
+.card h3 {
+    font-size: 26px;
+    line-height: 54px;
+    margin-left: 3px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.card-escuro {
+    background-color: #4D778D;
+    color: #FFFFFF;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-bottom: 17px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.contato {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.contato li {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.contato img {
+    width: 32px;
+    height: 32px;
+}
+
+.rodape {
+    background-color: #064661;
+    color: #FFFFFF;
+    text-align: center;
+    height: 153px;
+    padding-top: 39px;
+}
+
+.rodape p {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+}
